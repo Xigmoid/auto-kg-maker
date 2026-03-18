@@ -1,0 +1,24 @@
+{
+  "labels": [
+    {"Law": "法律法规、条例、规章等规范性文件"},
+    {"Case": "司法案例、诉讼案件"},
+    {"Court": "法院、法庭等司法机构"},
+    {"Judge": "法官、审判员"},
+    {"Lawyer": "律师、法律顾问"},
+    {"Defendant": "被告、犯罪嫌疑人"},
+    {"Plaintiff": "原告、起诉人"},
+    {"Crime": "罪名、违法行为"},
+    {"Penalty": "刑罚、处罚措施"},
+    {"Evidence": "证据、物证、书证"}
+  ],
+  "relationships": [
+    "presided_by (法官主持案件)",
+    "represented_by (律师代理)",
+    "charged_with (被控罪名)",
+    "sentenced_to (判处刑罚)",
+    "cites_law (引用法律)",
+    "violates (违反法律)",
+    "appealed_to (上诉至法院)",
+    "decided_by (法院判决)"
+  ]
+}

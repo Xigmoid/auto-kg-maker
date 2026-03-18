@@ -1,0 +1,39 @@
+{
+  "labels": [
+    {"Disease": "疾病名称，包括急性病、慢性病、综合征等"},
+    {"Symptom": "临床症状和体征"},
+    {"Drug": "药物名称"},
+    {"Treatment": "治疗方法"},
+    {"Anatomy": "人体解剖结构"},
+    {"Test": "医学检查检验项目"},
+    {"Pathogen": "病原体"},
+    {"Gene": "基因和遗传相关分子"},
+    {"Cell": "细胞类型"},
+    {"Biomarker": "生物标志物"},
+    {"SideEffect": "药物不良反应"},
+    {"Contraindication": "禁忌症"},
+    {"Indication": "适应症"},
+    {"Dosage": "药物剂量和用法"},
+    {"Patient": "患者人口学特征"},
+    {"MedicalDevice": "医疗器械"},
+    {"Department": "医学科室"},
+    {"Hospital": "医疗机构"},
+    {"Guideline": "临床指南"},
+    {"Research": "医学研究"}
+  ],
+  "relationships": [
+    "treats (药物治疗疾病)",
+    "causes (病因导致疾病)",
+    "symptom_of (症状属于某疾病)",
+    "located_in (解剖位置关系)",
+    "diagnosed_by (通过检查诊断)",
+    "contraindicated_with (药物与禁忌症)",
+    "side_effect (药物副作用)",
+    "interacts_with (药物相互作用)",
+    "associated_with (基因与疾病关联)",
+    "expressed_in (基因在组织中表达)",
+    "infects (病原体感染宿主)",
+    "resistant_to (病原体对药物耐药)",
+    "indicated_for (治疗适用于病症)"
+  ]
+}

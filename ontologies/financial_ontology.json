@@ -1,0 +1,22 @@
+{
+  "labels": [
+    {"Company": "公司、企业、集团"},
+    {"Person": "自然人、个人"},
+    {"Product": "金融产品、服务、投资产品"},
+    {"Market": "市场、交易所"},
+    {"Event": "经济事件、并购、破产"},
+    {"Asset": "资产、证券、股票"},
+    {"Institution": "金融机构、银行、基金"},
+    {"Regulation": "监管规定、政策"}
+  ],
+  "relationships": [
+    "owns (持有股份)",
+    "subsidiary_of (子公司)",
+    "launched (发布产品)",
+    "affected_by (受事件影响)",
+    "traded_on (在市场交易)",
+    "regulated_by (受机构监管)",
+    "merged_with (与...合并)",
+    "invested_in (投资于)"
+  ]
+}
